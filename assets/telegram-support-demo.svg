@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="28" fill="#f5f7fb"/>
+<rect x="70" y="55" width="1060" height="510" rx="24" fill="#fff" stroke="#d9e0ea"/>
+<text x="105" y="110" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#172033">🤖 Telegram Beast Agents</text>
+<text x="105" y="145" font-family="Arial,sans-serif" font-size="18" fill="#5b6577">AI-powered customer support flow</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="120" y="225" width="190" height="92" rx="18" fill="#e8f3ff"/><text x="215" y="263" font-size="20" font-weight="700" fill="#1c5d9b">📱 Customer</text><text x="215" y="292" font-size="15" fill="#4c6680">Telegram</text>
+<rect x="365" y="225" width="190" height="92" rx="18" fill="#eeeaff"/><text x="460" y="263" font-size="20" font-weight="700" fill="#51439a">🧠 AI Agent</text><text x="460" y="292" font-size="15" fill="#655d88">Intent + Context</text>
+<rect x="610" y="225" width="190" height="92" rx="18" fill="#eaf8ef"/><text x="705" y="263" font-size="20" font-weight="700" fill="#28734a">🎫 Support</text><text x="705" y="292" font-size="15" fill="#557663">FAQ + Tickets</text>
+<rect x="855" y="225" width="190" height="92" rx="18" fill="#fff3df"/><text x="950" y="263" font-size="20" font-weight="700" fill="#9a621d">👨‍💼 Human</text><text x="950" y="292" font-size="15" fill="#7d694d">Escalation</text>
+</g>
+<g stroke="#78869a" stroke-width="3" fill="none"><path d="M310 271h55"/><path d="M555 271h55"/><path d="M800 271h55"/></g>
+<text x="600" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#172033">⚡ Automation • 📊 Analytics • 🔐 Security</text>
+<text x="600" y="435" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#5b6577">Built to turn Telegram conversations into an organized support experience.</text>
+<text x="600" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#7b8494">Created &amp; developed by G.P. Prasanna</text>
+</svg>
