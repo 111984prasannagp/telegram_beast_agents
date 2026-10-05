@@ -1,31 +1,71 @@
-# Telegram Beast Agents
+# 🤖 Telegram Beast Agents
 
-A professional Telegram-first AI customer service platform.
+> Professional Telegram-first AI Customer Service Platform
 
-## Vision
-Telegram is the customer interface. The backend provides AI support, verified knowledge, ticketing, human escalation, notifications, analytics, and integrations.
+![Status](https://img.shields.io/badge/status-active%20development-00b894)
+![Python](https://img.shields.io/badge/Python-3.14+-3776AB?logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-Bot%20API-26A5E4?logo=telegram&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-n8n-EA4B71?logo=n8n&logoColor=white)
 
-## Planned architecture
-- Telegram Bot API
-- AI layer through an OpenAI-compatible OmniRoute endpoint
-- Knowledge base / FAQ
-- Customer and ticket database
-- Human support escalation
-- n8n automation
-- Admin tools and analytics
-- Security, rate limiting, audit logs, and secret management
+## ✨ Vision
 
-## Project phases
-1. Telegram foundation
-2. AI customer-service brain
-3. Customer support and tickets
-4. Automation
-5. Professional Telegram UI
-6. Admin system
-7. Testing, observability, and deployment
+Telegram Beast turns Telegram into a professional customer-service channel powered by AI, verified knowledge, ticketing, human escalation and automation.
 
-## Current repository
-This repository is the project foundation. Secrets are intentionally excluded. See `.env.example`.
+## 🏗️ Architecture
 
-## Safety
-Never commit Telegram bot tokens, API keys, passwords, cookies, or private customer data.
+Customer → Telegram → Intent Router → AI / Knowledge / Tickets → Human Support → n8n → Analytics
+
+![Telegram support demo](assets/telegram-support-demo.svg)
+
+![Architecture](assets/architecture.svg)
+
+## 📁 Repository
+
+- 🤖 bot/ — Telegram application
+- 🧠 ai/ — AI agent and prompts
+- 📚 knowledge/ — FAQ and knowledge base
+- 🎫 tickets/ — ticketing domain
+- 👥 customers/ — customer domain
+- 👨‍💼 admin/ — admin tools
+- ⚡ automation/ — n8n workflows
+- 🔌 integrations/ — external adapters
+- 🔐 security/ — security policies
+- 📊 analytics/ — reporting
+- 🧪 tests/ — tests
+- 📖 docs/ — documentation
+- 🎨 assets/ — demo visuals
+- 🛠️ scripts/ — developer utilities
+
+## 🚀 Planned features
+
+💬 AI support • 📚 FAQ • 🎫 Tickets • 👨‍💼 Human escalation • ⭐ Feedback • 🔔 Notifications • ⚡ n8n automation • 📊 Analytics • 🔐 Security • 🌍 Multi-language • 📎 Media
+
+## 🧭 Roadmap
+
+- [x] Professional repository structure
+- [x] Architecture and documentation
+- [x] Safe configuration templates
+- [x] Demo visuals
+- [ ] Production Telegram bot
+- [ ] Persistent customer database
+- [ ] Ticket lifecycle
+- [ ] Knowledge retrieval
+- [ ] Human-agent inbox
+- [ ] n8n automation pack
+- [ ] Analytics dashboard
+- [ ] Production deployment
+
+## 🛡️ Security
+
+Never commit Telegram tokens, API keys, passwords, cookies, databases or private customer data. Use .env locally and commit only .env.example.
+
+## 📚 Docs
+
+- docs/ARCHITECTURE.md
+- docs/PROJECT_PLAN.md
+- docs/TELEGRAM_FLOW.md
+- docs/AI_SYSTEM_PROMPT.md
+- automation/N8N.md
+- security/SECURITY.md
+
+Made with 🤖 + ⚡ + ❤️
