@@ -1,54 +1,44 @@
-# Telegram Beast Agents — Project Plan
+# 🗺️ Project Plan
 
-## 1. Telegram foundation
-- /start and welcome flow
-- /help
+## Phase 1 — Telegram foundation
+- /start and /help
 - inline keyboards
 - customer identity
-- admin allowlist
-- structured callbacks
+- admin roles
 - rate limiting
 
-## 2. AI customer service
-- intent classification
-- FAQ / knowledge retrieval
-- short-term conversation context
-- customer-safe response policy
+## Phase 2 — AI customer service
+- intent detection
+- FAQ retrieval
+- conversation context
 - sentiment-aware responses
-- fallback and human escalation
-- conversation summaries
+- summaries
+- safe fallback
 
-## 3. Customer support
+## Phase 3 — Customer support
 - ticket creation
-- ticket ID
-- ticket status
+- ticket ID and status
 - assignment
 - escalation
 - resolution
-- feedback / rating
+- feedback
 
-## 4. Automation
-- n8n webhook/API integration
+## Phase 4 — Automation
+- n8n API/webhooks
 - notifications
 - follow-ups
 - scheduled reports
-- workflow monitoring
 
-## 5. Admin
-- ticket queue
+## Phase 5 — Admin
 - customer search
+- ticket queue
 - analytics
-- AI controls
+- AI configuration
 - audit logs
 
-## 6. Security
-- environment secrets
-- allowlists / roles
-- rate limits
-- confirmation for sensitive operations
-- secret redaction
+## Phase 6 — Production
+- tests
+- observability
 - backups
-- no public exposure of local control APIs
-
-## 7. Quality
-Every integration should have a health check and graceful error handling. External credentials must be configured explicitly; the application must not guess or invent credentials.
+- deployment
+- security review
